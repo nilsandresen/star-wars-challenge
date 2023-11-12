@@ -8,11 +8,7 @@ type Props = {
   setIsLoading: React.Dispatch<React.SetStateAction<boolean>>;
 };
 
-export default function SearchResult({
-  input,
-  isLoading,
-  setIsLoading,
-}: Props) {
+export function SearchResult({ input, isLoading, setIsLoading }: Props) {
   const api = "https://swapi.dev/api/people/?search=";
 
   const [characters, setCharacters] = useState<Person[]>([]);
