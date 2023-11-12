@@ -27,13 +27,6 @@ export default function App() {
   const [input, setInput] = useState("");
   const [isLoading, setIsLoading] = useState(false);
 
-  // const memoizedSetIsLoading = useCallback(
-  //   (value: boolean) => {
-  //     setIsLoading(value);
-  //   },
-  //   [setIsLoading],
-  // );
-
   return (
     <div className="App">
       <Header />

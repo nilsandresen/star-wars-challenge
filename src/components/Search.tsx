@@ -17,7 +17,6 @@ export function Search({ input, setInput }: Props) {
         value={input}
         id="searchInput"
       />
-      <button className={styles.searchButton}>Search</button>
     </>
   );
 }
