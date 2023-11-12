@@ -2,7 +2,7 @@ import { useState } from "react";
 import "./App.css";
 import { Header } from "./components/Header";
 import { Search } from "./components/Search";
-import SearchResult from "./components/searchResult";
+import { SearchResult } from "./components/SearchResult";
 
 export type Person = {
   name: string;
